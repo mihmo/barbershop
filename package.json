@@ -1,0 +1,19 @@
+{
+  "name": "barbershop-adv",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Advanced barbershop project",
+  "main": "gulpfile.js",
+  "author": "m1hm",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp build"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-less": "^4.0.1"
+  }
+}
