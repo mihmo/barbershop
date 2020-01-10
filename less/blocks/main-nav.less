@@ -1,9 +1,9 @@
 .main-nav {
     position: relative;
 
-    width: 320px;
+    width: auto;
     min-height: 51px;
-    margin: 0 auto;
+    //margin: 0 auto;
 
     background-color: #826550;
 }
@@ -174,7 +174,9 @@
     .main-nav__wrapper {
         display: flex;
         justify-content: space-between;
-        width: 640px;
+
+        width: 84%; //640px / 768px = 84%
+        max-width: 960px; //960px / .84 = 1142px - используется для бесшовного перехода на десктопную версию
         margin: 0 auto;
     }
 
@@ -184,7 +186,7 @@
 }
 
 @media (min-width: @desktop-width) {
-    .main-nav__wrapper {
-        width: 960px;
-    }
+    //.main-nav__wrapper {
+    //    width: 960px;
+    //}
 }
